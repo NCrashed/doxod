@@ -1,0 +1,13 @@
+name "doxod"
+description "Experimental renderer of voxel volumes"
+authors "NCrashed"
+copyright "Copyright © 2024, NCrashed"
+license "MIT"
+
+dependency "bindbc-opengl" version="~>1.1.0"
+versions "GL_33"
+subConfiguration "bindbc-opengl" "dynamicBC"
+
+dependency "bindbc-glfw" version="~>1.1.0"
+versions "GLFW_33"
+subConfiguration "bindbc-glfw" "dynamicBC"
